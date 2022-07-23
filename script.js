@@ -16,6 +16,18 @@ $('.hour').each(function () {
   } else {
     $(this).siblings('textarea').addClass('future');
   }
+  var task = localStorage.getItem($(this).attr('id'));
+  if (task) {
+    $(this).siblings('textarea').val(task);
+  }
+});
+
+$('button').each(function () {
+  $(this).click(function () {
+    var id = $(this).siblings('div').attr('id');
+    var task = $(this).siblings('textarea').val();
+    localStorage.setItem(id, task);
+  });
 });
 
 // Time blocks for that day
@@ -23,3 +35,4 @@ $('.hour').each(function () {
 // Click into a time block
 
 // Click the save button for that time block and save in local storage and saved event persists
+//Saves our scheduled item
