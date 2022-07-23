@@ -12,7 +12,7 @@ Tools used:
 HTML, CSS, JSON, JAVASCRIPT, JQUERY
 
 Github:
-github.com/Shmeeheart/not-in-the-calendar...does-not-exist
+(https://github.com/Shmeeheart/not-in-the-calendar...does-not-exist)
 
 Application URL:
 (https://shmeeheart.github.io/Not-in-the-Calendar...Does-Not-Exist/)
